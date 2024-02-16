@@ -66,7 +66,8 @@ ul {
 .paper {
   background-color: white;
   color: #212529;
-  margin-block: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-inline: 80px;
   padding-top: 50px;
