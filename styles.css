@@ -79,7 +79,7 @@ article {
   font-size: 17px;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 1rem;
 }
 .opening {
   font-weight: bold;
@@ -90,6 +90,7 @@ article {
   line-height: 1.2;
   font-size: 29px;
   font-family: inherit;
+  margin-bottom: -10px;
 }
 
 .time {
