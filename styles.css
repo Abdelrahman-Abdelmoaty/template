@@ -49,7 +49,7 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 .nav ul li a {
-  color: black;
+  color: #333;
   text-decoration: none;
   font-weight: 600;
 }
@@ -64,8 +64,8 @@ ul {
 }
 
 .paper {
-  font-family: "Open Sans", sans-serif;
   background-color: white;
+  color: #212529;
   margin-block: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-inline: 80px;
@@ -73,10 +73,12 @@ ul {
 }
 
 article {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  font-weight: 500;
 }
 .opening {
   font-weight: bold;
@@ -84,6 +86,9 @@ article {
 
 .title {
   font-weight: 500;
+  line-height: 1.2;
+  font-size: 29px;
+  font-family: inherit;
 }
 
 .time {
