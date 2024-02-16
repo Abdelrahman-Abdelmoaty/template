@@ -102,7 +102,9 @@
         function displayCurrentTime() {
             const currentTime = new Date();
             const timeElement = document.getElementById('current-time');
-            timeElement.textContent = currentTime.toLocaleString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+            const time = currentTime.toLocaleString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true }).replace(',', '').replace(' at ', ' - ');
+
+            timeElement.textContent = time
         }
 
         displayCurrentTime();
