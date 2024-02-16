@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="time">
+            <div class="container">
+                <div id="current-time"></div>
+            </div>
+        </div>
+        <div class="navbar container">
+            <div class="logo">
+                <a href="#">
+                    <img src="/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">RECENT</a>
+                    </li>
+                    <li>
+                        <a href="#">PAGES</a>
+                    </li>
+                    <li>
+                        <a href="#">ECOMMERCE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <div class="container paper">
+            <article>
+                <h2 class="title">About Star Trek Voyager</h2>
+                <p>
+                    <span class="opening">Star Trek Voyager</span> is an American science fiction television series
+                    created by Rick
+                    Berman,
+                    Michael Piller, and Jeri Taylor. It originally aired from January 16, 1995, to May 23, 2001, on
+                    UPN, lasting for 172 episodes over seven seasons. It is the fifth series in the Star Trek
+                    franchise.
+                </p>
+                <p>Set in the 24th century, when Earth is part of a United Federation of Planets, it follows the
+                    adventures of the Starfleet vessel USS Voyager as it attempts to return home to the Alpha Quadrant
+                    after being stranded in the Delta Quadrant on the far side of the Milky Way galaxy.</p>
+                <p>Paramount Pictures commissioned the series following the termination of Star Trek: The Next
+                    Generation to accompany the ongoing Star Trek: Deep Space Nine. They wanted it to help launch UPN,
+                    their newly established network. Berman, Piller, and Taylor devised the series to chronologically
+                    overlap with Deep Space Nine and to maintain thematic continuity with elements that had been
+                    introduced in The Next Generation and Deep Space Nine. The complex relationship between Starfleet
+                    and ex-Federation colonists known as the Maquis was one such element and a persistent central theme.
+                    Voyager was the first Star Trek series to feature a female commanding officer, Captain Kathryn
+                    Janeway (Kate Mulgrew), as the lead character. Berman served as head executive producer in charge of
+                    the overall production, assisted by a series of executive producers: Piller, Taylor, Brannon Braga,
+                    and Kenneth Biller.</p>
+                <p>Set in a different part of the galaxy from preceding Star Trek shows, Voyager gave the series'
+                    writers space to introduce new alien species as recurring characters, namely the Kazon, Vidiians,
+                    Hirogen, and Species 8472. During the later seasons, the Borg-a species created for The Next
+                    Generationâ€”were introduced as the main antagonists. During Voyager's run, various episode
+                    novelizations and tie-in video games were produced; after it ended, various novels continued the
+                    series' narrative.</p>
+                <p>The Borg are an alien group that appear as recurring antagonists in the Star Trek fictional universe.
+                    The Borg are cybernetic organisms (cyborgs) linked in a hive mind called "The Collective". The Borg
+                    co-opt the technology and knowledge of other alien species to the Collective through the process of
+                    "assimilation": forcibly transforming individual beings into "drones" by injecting nanoprobes into
+                    their bodies and surgically augmenting them with cybernetic components. The Borg's ultimate goal is
+                    "achieving perfection".</p>
+                <p>Aside from being recurring antagonists in the Next Generation television series, they are depicted as
+                    the main threat in the film Star Trek: First Contact. In addition, they played major roles in the
+                    Voyager and Picard series.</p>
+                <p>Set in a different part of the galaxy from preceding Star Trek shows, Voyager gave the series'
+                    writers space to introduce new alien species as recurring characters, namely the Kazon, Vidiians,
+                    Hirogen, and Species 8472. During the later seasons, the Borg-a species created for The Next
+                    Generationâ€”were introduced as the main antagonists. During Voyager's run, various episode
+                    novelizations and tie-in video games were produced; after it ended, various novels continued the
+                    series' narrative.</p>
+                <p>The Borg have become a symbol in popular culture for any juggernaut against which "resistance is
+                    futile", a common phrase uttered by the Borg.</p>
+                <p>The Borg represented a new antagonist and regular enemy which had been lacking during the first
+                    season of TNG; the Klingons were allies and the Romulans mostly absent. The Ferengi were originally
+                    intended as the new enemy for the United Federation of Planets, but their comical appearance failed
+                    to portray them as a convincing threat. The Borg, however, with their frightening appearance, their
+                    immense power, and their sinister motive, became the signature villains for the TNG and Voyager eras
+                    of Star Trek. In Voyager episode "Q2", even the near-omnipotent Q tells his son, "Don't provoke the
+                    Borg!"</p>
+            </article>
+        </div>
+    </main>
+    <script>
+        function displayCurrentTime() {
+            const currentTime = new Date();
+            const timeElement = document.getElementById('current-time');
+            timeElement.textContent = currentTime.toLocaleString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+        }
+
+        displayCurrentTime();
+    </script>
+</body>
+
+</html>
